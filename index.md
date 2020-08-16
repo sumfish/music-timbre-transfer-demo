@@ -1,4 +1,4 @@
-This is the demo page for [Semi-supervised Many-to-many music timbre transfer](https://github.com/sumfish/music-style-transfer)
+This is the demo page for [Semi-supervised Many-to-many Music Timbre Transfer](https://github.com/sumfish/music-style-transfer)
 
 ## Abstract
 
@@ -10,7 +10,7 @@ This is the demo page for [Semi-supervised Many-to-many music timbre transfer](h
 
 Source | Target | Ours-Baseline | Ours-Semi
 ------------ | ------------- | ------------- | ------------- |
-<audio src="Res_demopage/source/piano_10.mp3" controls preload></audio> | <audio src="Res_demopage/source/piano_10.mp3" controls preload></audio> | <audio src="Res_demopage/base/p2ag_10_2.wav" controls preload></audio> |
+<audio src="Res_demopage/source/piano_10.mp3" controls preload></audio> | <audio src="Res_demopage/source/piano_10.mp3" controls preload></audio> | <audio src="Res_demopage/base/p2ag_10_2.mp3" controls preload></audio> |
 
 
 ### Piano to Electric Guitar
