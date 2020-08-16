@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+This is the demo page for [Semi-supervised Many-to-many music timbre transfer](https://github.com/sumfish/music-style-transfer)
 
-You can use the [editor on GitHub](https://github.com/sumfish/music-timbre-transfer-demo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Abstract
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+-------
+## Demo
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Piano to Acoustic Guitar
 
-```markdown
-Syntax highlighted code block
+Source | Target | Ours-Baseline | Ours-Semi
+------------ | ------------- | ------------- | ------------- |
+<audio src="Res_demopage/source/piano_10.mp3" controls preload></audio> | <audio src="Res_demopage/source/piano_10.mp3" controls preload></audio> | <audio src="Res_demopage/base/p2ag_10_2.wav" controls preload></audio> |
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Piano to Electric Guitar
 
-1. Numbered
-2. List
+### Piano to Bass
 
-**Bold** and _Italic_ and `Code` text
+### Acoustic Guitar to Piano
 
-[Link](url) and ![Image](src)
-```
+### Acoustic Guitar to Electric Guitar
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Acoustic Guitar to Bass
 
-### Jekyll Themes
+### Electric Guitar to Piano
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sumfish/music-timbre-transfer-demo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Electric Guitar to Acoustic Guitar
 
-### Support or Contact
+### Electric Guitar to Bass
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Bass to Piano
+
+### Bass to Acoustic Guitar
+
+### Bass to Electric Guitar
