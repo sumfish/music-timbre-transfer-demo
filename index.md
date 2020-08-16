@@ -60,6 +60,7 @@ Ours - Baseline | Ours - Semi |
 <audio src="Res_demopage/base/ag2eg_10_2.mp3" controls preload></audio> |
 
 ### Acoustic Guitar to Bass
+
 Source | Target | 
 ------------ | ------------- | 
 <audio src="Res_demopage/source/ag_09.mp3" controls preload></audio> | <audio src="Res_demopage/target/bass.mp3" controls preload></audio> |
@@ -69,6 +70,7 @@ Ours - Baseline | Ours - Semi |
 <audio src="Res_demopage/base/ag2bass_09_2.mp3" controls preload></audio> |
 
 ### Electric Guitar to Piano
+
 Source | Target | 
 ------------ | ------------- | 
 <audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
