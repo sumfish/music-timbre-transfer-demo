@@ -17,7 +17,21 @@ Ours-Baseline | Ours-Semi |
 
 ### Piano to Electric Guitar
 
+Source | Target | 
+------------ | ------------- | 
+<audio src="Res_demopage/source/piano_04.mp3" controls preload></audio> | <audio src="Res_demopage/source/eg_09.mp3" controls preload></audio> |
+Ours-Baseline | Ours-Semi | 
+------------- | ------------- |
+<audio src="Res_demopage/base/p2eg_04_2.mp3" controls preload></audio> |
+
 ### Piano to Bass
+
+Source | Target | 
+------------ | ------------- | 
+<audio src="Res_demopage/source/piano_09.mp3" controls preload></audio> | <audio src="Res_demopage/source/bass_10.mp3" controls preload></audio> |
+Ours-Baseline | Ours-Semi | 
+------------- | ------------- |
+<audio src="Res_demopage/base/p2bass_09_2.mp3" controls preload></audio> |
 
 ### Acoustic Guitar to Piano
 
