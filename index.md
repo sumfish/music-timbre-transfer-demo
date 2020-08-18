@@ -23,7 +23,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2ag_10_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/p2ag_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2ag_10_2.mp3" controls preload></audio> |
 
 ### Piano to Electric Guitar
 
@@ -33,7 +33,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2eg_04_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/p2eg_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2eg_04_2.mp3" controls preload></audio> |
 
 ### Piano to Bass
 
@@ -43,7 +43,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2bass_09_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/p2bass_09_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2bass_09_2.mp3" controls preload></audio> |
 
 ### Acoustic Guitar to Piano
 
@@ -53,7 +53,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/ag2p_10_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/ag2p_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2p_10_2.mp3" controls preload></audio> |
 
 ### Acoustic Guitar to Electric Guitar
 
@@ -63,7 +63,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/ag2eg_10_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/ag2eg_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2eg_10_2.mp3" controls preload></audio> |
 
 ### Acoustic Guitar to Bass
 
@@ -73,7 +73,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/ag2bass_09_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/ag2bass_09_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2bass_09_2.mp3" controls preload></audio> |
 
 ### Electric Guitar to Piano
 
@@ -83,7 +83,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.mp3" controls preload></audio> |
 
 ### Electric Guitar to Acoustic Guitar
 
