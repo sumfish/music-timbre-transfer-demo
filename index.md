@@ -10,6 +10,7 @@ We evaluates the content preservation and the success of style transfer in both 
 -------
 ## Dataset
 [The parallel dataset]()
+
 The MIDI files of 21 pop and cartoon songs (total 2700 seconds) are collected from [Bitmidi](https://bitmidi.com/). Then the parallel dataset is synthesized from these MIDI files and digital audio workstation (DAW). Each song in the dataset is played by four kinds of instruments, including piano, acoustic guitar, electric guitar, and bass.
 
 -------
