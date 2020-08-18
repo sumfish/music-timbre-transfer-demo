@@ -1,9 +1,15 @@
 This is the demo page for [Semi-supervised Many-to-many Music Timbre Transfer](https://github.com/sumfish/music-style-transfer)
 
 ## Abstract
-Inspired by the success in voice conversion, the concept of music timbre transfer is considered as to transform the style of the music clip to a target clip while preserving the semantic content of the music. Even the concept has been commonly used in music transfer, the many-to-many timbre transfer between different instruments still remain under-explored area. In this work, we investigate the possibility of many-to-many music timbre transfer based on an autoencoder framework, which is composed of two pre-trained encoder and one decoder trained in an unsupervised manner. To learn more representative features in the pre-trained content and style encoder, we produce a parallel dataset synthesized from MIDI files and digital audio workstation (DAW). 
+Inspired by the success in voice conversion, the concept of music timbre transfer is considered as to transform the style of the music clip to a target clip while preserving the semantic content of the music. Even the concept has been commonly used in music transfer, the many-to-many timbre transfer between different instruments still remain under-explored area. 
+
+In this work, we investigate the possibility of many-to-many music timbre transfer based on an autoencoder framework, which is composed of two pre-trained encoder and one decoder trained in an unsupervised manner. To learn more representative features in the pre-trained content and style encoder, we produce a parallel dataset synthesized from MIDI files and digital audio workstation (DAW). 
 
 We evaluates the content preservation and the success of style transfer in both objective and subjective manners. In addition to the performance measurement, we also demonstrate that on the basis of state-of-the-art Triplet network, the content encoder is able to learn meaningful content representations with the collected parallel dataset, which has no manually labelled annotations of music content.
+
+-------
+## Dataset
+As a summary of the [parallel dataset](), 21 popular songs (total 2700 seconds) are included. The genres of these songs are pop and cartoon songs. And each song is played by four kinds of instruments, including piano, acoustic guitar, electric guitar, and bass.
 
 -------
 ## Demo
