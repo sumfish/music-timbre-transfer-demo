@@ -9,7 +9,8 @@ We evaluates the content preservation and the success of style transfer in both 
 
 -------
 ## Dataset
-As a summary of the [parallel dataset](), 21 popular songs (total 2700 seconds) are included. The genres of these songs are pop and cartoon songs. And each song is played by four kinds of instruments, including piano, acoustic guitar, electric guitar, and bass.
+[The parallel dataset]()
+The MIDI files of 21 pop and cartoon songs (total 2700 seconds) are collected from [Bitmidi](https://bitmidi.com/). Then the parallel dataset is synthesized from these MIDI files and digital audio workstation (DAW). Each song in the dataset is played by four kinds of instruments, including piano, acoustic guitar, electric guitar, and bass.
 
 -------
 ## Demo
@@ -23,7 +24,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2ag_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2ag_10_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/p2ag_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2ag_10_2.wav" controls preload></audio> |
 
 ### Piano to Electric Guitar
 
@@ -33,7 +34,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2eg_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2eg_04_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/p2eg_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2eg_04_2.wav" controls preload></audio> |
 
 ### Piano to Bass
 
@@ -43,7 +44,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2bass_09_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2bass_09_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/p2bass_09_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2bass_09_2.wav" controls preload></audio> |
 
 ### Acoustic Guitar to Piano
 
@@ -53,7 +54,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/ag2p_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2p_10_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/ag2p_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2p_10_2.wav" controls preload></audio> |
 
 ### Acoustic Guitar to Electric Guitar
 
@@ -63,7 +64,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/ag2eg_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2eg_10_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/ag2eg_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2eg_10_2.wav" controls preload></audio> |
 
 ### Acoustic Guitar to Bass
 
@@ -73,7 +74,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/ag2bass_09_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2bass_09_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/ag2bass_09_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2bass_09_2.wav" controls preload></audio> |
 
 ### Electric Guitar to Piano
 
@@ -83,7 +84,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
 
 ### Electric Guitar to Acoustic Guitar
 
