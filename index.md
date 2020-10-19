@@ -90,10 +90,50 @@ Ours - Baseline | Ours - Semi |
 
 ### Electric Guitar to Acoustic Guitar
 
+Source | Target | 
+------------ | ------------- | 
+<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+
+Ours - Baseline | Ours - Semi | 
+------------- | ------------- |
+<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
+
 ### Electric Guitar to Bass
+
+Source | Target | 
+------------ | ------------- | 
+<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+
+Ours - Baseline | Ours - Semi | 
+------------- | ------------- |
+<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
 
 ### Bass to Piano
 
+Source | Target | 
+------------ | ------------- | 
+<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+
+Ours - Baseline | Ours - Semi | 
+------------- | ------------- |
+<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
+
 ### Bass to Acoustic Guitar
 
+Source | Target | 
+------------ | ------------- | 
+<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+
+Ours - Baseline | Ours - Semi | 
+------------- | ------------- |
+<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
+
 ### Bass to Electric Guitar
+
+Source | Target | 
+------------ | ------------- | 
+<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+
+Ours - Baseline | Ours - Semi | 
+------------- | ------------- |
+<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
