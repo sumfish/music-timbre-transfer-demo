@@ -1,11 +1,11 @@
 This is the demo page for [Semi-supervised Many-to-many Music Timbre Transfer](https://github.com/sumfish/music-style-transfer)
 
 ## Abstract
-Inspired by the success in voice conversion, the concept of music timbre transfer is considered as to transform the style of the music clip to a target clip while preserving the semantic content of the music. Even the concept has been commonly used in music transfer, the many-to-many timbre transfer between different instruments still remain under-explored area. 
+Inspired by the success in voice conversion, the concept of music timbre transfer is considered in the task of transforming the style of a music clip while preserving the semantic content. However, the many-to-many timbre transfer between different instruments remains an under-explored area. 
 
-In this work, we investigate the possibility of many-to-many music timbre transfer based on an autoencoder framework, which is composed of two pre-trained encoder and one decoder trained in an unsupervised manner. To learn more representative features in the pre-trained content and style encoder, we produce a parallel dataset synthesized from MIDI files and digital audio workstation (DAW). 
+In this work, we investigate many-to-many transfer based on an autoencoder framework, which comprises two pretrained encoders and one decoder trained in an unsupervised manner. To learn more representative features for encoders, we produced a parallel dataset, called the MI-Para, synthesized from MIDI files and digital audio workstations (DAW). 
 
-We evaluates the content preservation and the success of style transfer in both objective and subjective manners. In addition to the performance measurement, we also demonstrate that on the basis of state-of-the-art Triplet network, the content encoder is able to learn meaningful content representations with the collected parallel dataset, which has no manually labelled annotations of music content.
+Evaluation results showed the effectiveness of the proposed framework. To scale up the application scenario, we also demonstrated that our model can achieve style transfer by training in a semi-supervised manner with a smaller parallel dataset.
 
 -------
 ## Dataset
@@ -15,7 +15,7 @@ The MIDI files of 21 pop and cartoon songs (total 2700 seconds) are collected fr
 
 -------
 ## Demo
-There are four kinds of instruments in our datasets, so we conducted twelve transfer tasks between different kinds of instruments in our experiment.
+There are four kinds of instruments in the MI-Para dataset, so we conducted twelve transfer tasks between different kinds of instruments in our experiment.
 
 ### Piano to Acoustic Guitar
 
