@@ -8,10 +8,11 @@ In this work, we investigate many-to-many transfer based on an autoencoder frame
 Evaluation results showed the effectiveness of the proposed framework. To scale up the application scenario, we also demonstrated that our model can achieve style transfer by training in a semi-supervised manner with a smaller parallel dataset.
 
 -------
-## Dataset
-[The parallel dataset]()
+## MI-Para Dataset
 
-The MIDI files of 21 pop and cartoon songs (total 2700 seconds) are collected from [Bitmidi](https://bitmidi.com/). Then the parallel dataset is synthesized from these MIDI files and digital audio workstation (DAW). Each song in the dataset is played by four kinds of instruments, including piano, acoustic guitar, electric guitar, and bass.
+The MIDI files of 21 Western pop songs and cartoon songs (total 2700 seconds) are collected from [Bitmidi](https://bitmidi.com/). Then we utilize MIDI files and digital audio workstation (DAW) to synthesize audio files. By doing this, we ensure that the only change between the two audio files is the timbre. Each song in the dataset was played by four kinds of instruments, including piano, acoustic guitar, electric guitar, and bass.
+
+[Download the MI-Para dataset]()
 
 -------
 ## Demo
