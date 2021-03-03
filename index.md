@@ -130,7 +130,7 @@ Ours - Baseline | Ours - Semi |
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/22_bass.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/22_bass.mp3" controls preload></audio> | <audio src="Res_demopage/target/eg.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
