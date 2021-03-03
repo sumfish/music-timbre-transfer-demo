@@ -24,7 +24,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2ag_24_0.mpa" controls preload></audio> | <audio src="Res_demopage/semi/p2ag_24_1.mp3" controls preload></audio> |
+<audio src="Res_demopage/base/p2ag_24_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2ag_24_1.mp3" controls preload></audio> |
 
 ### Piano to Electric Guitar
 
