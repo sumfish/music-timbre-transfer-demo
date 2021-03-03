@@ -1,18 +1,16 @@
 This is the demo page for [Semi-supervised Many-to-many Music Timbre Transfer](https://github.com/sumfish/music-style-transfer)
 
 ## Abstract
-Inspired by the success in voice conversion, the concept of music timbre transfer is considered in the task of transforming the style of a music clip while preserving the semantic content. However, the many-to-many timbre transfer between different instruments remains an under-explored area. 
+This work presents a music timbre transfer model that aims to transfer the style of a music clip while preserving the semantic content. Compared to the existing music timbre transfer models, our model can achieve many-to-many timbre transfer between different instruments. 
 
-In this work, we investigate many-to-many transfer based on an autoencoder framework, which comprises two pretrained encoders and one decoder trained in an unsupervised manner. To learn more representative features for encoders, we produced a parallel dataset, called the MI-Para, synthesized from MIDI files and digital audio workstations (DAW). 
+The proposed method involves only an autoencoder framework, which comprises two pretrained encoders and one decoder trained in an unsupervised manner. To learn more representative features for the encoders, we produced a parallel dataset, called MI-Para, which is synthesized from MIDI files and digital audio workstations (DAW). 
 
-Evaluation results showed the effectiveness of the proposed framework. To scale up the application scenario, we also demonstrated that our model can achieve style transfer by training in a semi-supervised manner with a smaller parallel dataset.
+Both the objective and the subjective evaluation results showed the effectiveness of the proposed framework. To scale up the application scenario, we also demonstrate that our model can achieve style transfer by training in a semi-supervised manner with a smaller parallel dataset.
 
 -------
 ## MI-Para Dataset
 
 The MIDI files of 21 Western pop songs and cartoon songs (total 2700 seconds) are collected from [Bitmidi](https://bitmidi.com/). Then we utilize MIDI files and digital audio workstation (DAW) to synthesize audio files. By doing this, we ensure that the only change between the two audio files is the timbre. Each song in the dataset was played by four kinds of instruments, including piano, acoustic guitar, electric guitar, and bass.
-
-[Download the MI-Para dataset]()
 
 -------
 ## Demo
@@ -26,7 +24,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2ag_24_0.mpa" controls preload></audio> | <audio src="Res_demopage/semi/p2ag_24_1.wav" controls preload></audio> |
+<audio src="Res_demopage/base/p2ag_24_0.mpa" controls preload></audio> | <audio src="Res_demopage/semi/p2ag_24_1.mp3" controls preload></audio> |
 
 ### Piano to Electric Guitar
 
@@ -46,7 +44,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2bass_09_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2bass_09_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/p2bass_09_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2bass_09_2.mp3" controls preload></audio> |
 
 ### Acoustic Guitar to Piano
 
@@ -66,7 +64,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/ag2eg_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2eg_10_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/ag2eg_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2eg_10_2.mp3" controls preload></audio> |
 
 ### Acoustic Guitar to Bass
 
@@ -86,7 +84,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/eg2p_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_22_1.wav" controls preload></audio> |
+<audio src="Res_demopage/base/eg2p_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_22_1.mp3" controls preload></audio> |
 
 ### Electric Guitar to Acoustic Guitar
 
@@ -106,7 +104,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/eg2bass_22_b_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2bass_22_b_1.wav" controls preload></audio> |
+<audio src="Res_demopage/base/eg2bass_22_b_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2bass_22_b_1.mp3" controls preload></audio> |
 
 ### Bass to Piano
 
@@ -116,7 +114,7 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/b2p_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/b2p_22_1.wav" controls preload></audio> |
+<audio src="Res_demopage/base/b2p_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/b2p_22_1.mp3" controls preload></audio> |
 
 ### Bass to Acoustic Guitar
 
@@ -136,4 +134,4 @@ Source | Target |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/b2eg_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/b2eg_22_1.wav" controls preload></audio> |
+<audio src="Res_demopage/base/b2eg_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/b2eg_22_1.mp3" controls preload></audio> |
