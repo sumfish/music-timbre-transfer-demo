@@ -22,21 +22,21 @@ There are four kinds of instruments in the MI-Para dataset, so we conducted twel
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/piano_10.mp3" controls preload></audio> | <audio src="Res_demopage/target/ag.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/24_piano.mp3" controls preload></audio> | <audio src="Res_demopage/target/ag.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2ag_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2ag_10_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/p2ag_24_0.mpa" controls preload></audio> | <audio src="Res_demopage/semi/p2ag_24_1.wav" controls preload></audio> |
 
 ### Piano to Electric Guitar
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/piano_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/eg.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/24_piano.mp3" controls preload></audio> | <audio src="Res_demopage/target/eg.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/p2eg_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2eg_04_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/p2eg_24_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/p2eg_24_1.mp3" controls preload></audio> |
 
 ### Piano to Bass
 
@@ -52,11 +52,11 @@ Ours - Baseline | Ours - Semi |
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/ag_10.mp3" controls preload></audio> | <audio src="Res_demopage/target/ag.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/24_ag.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/ag2p_10_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2p_10_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/ag2p_24_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2p_24_1.mp3" controls preload></audio> |
 
 ### Acoustic Guitar to Electric Guitar
 
@@ -72,68 +72,68 @@ Ours - Baseline | Ours - Semi |
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/ag_09.mp3" controls preload></audio> | <audio src="Res_demopage/target/bass.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/22_2ag.mp3" controls preload></audio> | <audio src="Res_demopage/target/bass_09.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/ag2bass_09_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2bass_09_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/ag2bass_22_b_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/ag2bass_22_b_1.mp3" controls preload></audio> |
 
 ### Electric Guitar to Piano
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/22_eg.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/eg2p_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_22_1.wav" controls preload></audio> |
 
 ### Electric Guitar to Acoustic Guitar
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/22_eg.mp3" controls preload></audio> | <audio src="Res_demopage/target/ag.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/eg2ag_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2ag_22_1.mp3" controls preload></audio> |
 
 ### Electric Guitar to Bass
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/22_2_eg.mp3" controls preload></audio> | <audio src="Res_demopage/target/bass.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/eg2bass_22_b_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2bass_22_b_1.wav" controls preload></audio> |
 
 ### Bass to Piano
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/22_bass.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/b2p_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/b2p_22_1.wav" controls preload></audio> |
 
 ### Bass to Acoustic Guitar
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/22_bass.mp3" controls preload></audio> | <audio src="Res_demopage/target/ag.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/b2ag_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/b2ag_22_1.mp3" controls preload></audio> |
 
 ### Bass to Electric Guitar
 
 Source | Target | 
 ------------ | ------------- | 
-<audio src="Res_demopage/source/eg_04.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
+<audio src="Res_demopage/source/22_bass.mp3" controls preload></audio> | <audio src="Res_demopage/target/piano.mp3" controls preload></audio> |
 
 Ours - Baseline | Ours - Semi | 
 ------------- | ------------- |
-<audio src="Res_demopage/base/eg2p_04_2.mp3" controls preload></audio> | <audio src="Res_demopage/semi/eg2p_04_2.wav" controls preload></audio> |
+<audio src="Res_demopage/base/b2eg_22_0.mp3" controls preload></audio> | <audio src="Res_demopage/semi/b2eg_22_1.wav" controls preload></audio> |
